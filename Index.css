@@ -1,0 +1,308 @@
+*
+{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.navbar-nav
+{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+.nav-item
+{
+    text-decoration: none;
+    margin-left: 25px;
+
+}
+.nav-link
+{
+    color: black !important;
+    text-decoration: none
+}
+.nav-link:hover
+{
+    text-decoration: none;
+    color: black !important;
+    border: none;
+}
+.nav-btn
+{
+    background-color: #176680;
+    color: white;
+    width: 160px;
+    font-weight: bolder;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+      
+} 
+
+#product
+{
+    
+    margin-top: 50px;
+}
+.product-text
+{
+    font-weight: bolder;
+}
+.pro-txtclr
+{
+    color: #176680;
+    font-size: 18px !important;
+}
+
+.pro-btn
+{
+    background-color:#176680 ;
+    color: white;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.pro-btn:hover
+{
+    color: white;
+}
+.pro-btn1
+{
+        margin-left: 20px;
+        border-radius: 50px;
+        padding: 6px 30px;
+        border: solid 3px transparent;
+        background-image: linear-gradient(to right, rgb(106, 106, 242),rgb(38, 230, 38), yellow ), 
+        linear-gradient(101deg, rgb(106, 106, 242),rgb(38, 230, 38),yellow );
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 100px 1px #fff inset;
+}
+#Customer
+{
+    background-color: #022835;
+    height: 300px;
+}
+.custom-txt
+{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+}
+.carousel-item
+{
+  margin-top: 30px;
+}
+.carousel-inner img
+ {
+    width: 100%;
+    height: 100%;
+  }
+.cus-btn
+{
+        border-radius: 50px;
+        color: white;
+        font-weight: bold;
+        margin-left: 370px;
+        padding: 6px 30px;
+        border: solid 3px transparent;
+        background-image: linear-gradient(to right, rgb(106, 106, 242),rgb(38, 230, 38), yellow ), 
+        linear-gradient(101deg, rgb(106, 106, 242),rgb(38, 230, 38),yellow );
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 100px 1px #022835 inset;
+    
+}
+.cus-btn1
+{
+    
+    margin-left: 100px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    padding: 6px 30px;
+    border: solid 3px transparent;
+    background-image: linear-gradient(to right, rgb(106, 106, 242),rgb(38, 230, 38), yellow ), 
+    linear-gradient(101deg, rgb(106, 106, 242),rgb(38, 230, 38),yellow );
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 100px 1px #022835 inset;
+}
+.mark-txt
+{
+    word-spacing: 1px;
+}
+.mark-btn
+{
+    
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50px;
+    background:#176680;
+    color: white;
+}
+.mark-btn1
+{
+    
+    margin-left: 50px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 6px 30px;
+    border: solid 3px transparent;
+    background-image: linear-gradient(to right, rgb(106, 106, 242),rgb(38, 230, 38), yellow ), 
+    linear-gradient(101deg, rgb(106, 106, 242),rgb(38, 230, 38),yellow );
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 100px 1px #fff inset;
+}
+.mark-vdo
+{
+    align-self: center;
+    margin-top: 110px;
+    height: 150px;
+}
+.instud-img
+{
+    margin-top: 30px;
+    position: absolute;
+}
+.instud-fig
+{
+    text-align: center;
+    color: #176680;
+}
+.instud-para
+{
+    font-family: "Myriad pro", Sans-serif!important;
+    color:black; 
+    line-height: 1.5;
+}
+.digit-head
+{
+    text-align: center;
+    font-weight: bolder;
+}
+.digit-cards
+{
+    background: white;
+    height: 330px;
+    width: 330px !important;
+    border: solid white;
+    box-shadow: 1px 2px 3px 2px #b3b2b2;
+    row-gap: 20px;
+}
+.card-img-top
+{
+    text-align: center;
+    
+}
+.card-title-digit
+{
+    text-align: center !important;
+}
+.card-text-digit
+{
+    text-align: center !important;
+    word-spacing: 2px;
+    font-weight: normal;
+    line-height: 16px;
+}
+
+.service-card
+{
+    height: 250px;
+    width: 350px;
+}
+.ser-head
+{
+    text-align: center;
+}
+.ser-head
+{
+    align-items: start !important;
+}
+.ser-btn1
+{
+        padding-bottom: 25px;
+        margin-top: 20px;
+        border-radius: 50px;
+        padding: 6px 30px;
+        border: solid 3px transparent;
+        background-image: linear-gradient(to right, rgb(106, 106, 242),rgb(38, 230, 38), yellow ), 
+        linear-gradient(101deg, rgb(106, 106, 242),rgb(38, 230, 38),yellow );
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 100px 1px #fff inset;
+}
+.update-card
+{
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px 1px rgb(203, 200, 200);
+    height: 380px;
+}
+.update-link
+{
+    color: black;
+}
+.update-link:hover
+{
+    color: black;
+    text-decoration: none;
+}
+.footer-form
+{
+    height: 300px;
+    
+}
+
+.footer-text
+{
+    width: 300px;
+    height: 45px;
+    margin: 20px;
+    border: 1px solid black;
+}
+.footer-textarea
+{
+    margin-left: 20px;
+    border: 1px solid black;
+    
+}
+.footer-btn
+{
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50px;
+    background:#176680;
+    color: white;
+}
+
+.footer-row
+{
+    margin-top: 30px;
+    height: 250px;
+    color: white;
+    float: left;
+}
+.fa
+{
+    color: white;
+    font-size: 20px !important;
+    margin: 10px;
+
+}
